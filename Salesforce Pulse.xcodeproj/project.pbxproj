@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		73335CBE2D6F53F80022BA76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73335CA52D6F53F50022BA76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73335CAC2D6F53F50022BA76;
+			remoteInfo = "Salesforce Pulse";
+		};
+		73335CC82D6F53F80022BA76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73335CA52D6F53F50022BA76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73335CAC2D6F53F50022BA76;
+			remoteInfo = "Salesforce Pulse";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		73335CAD2D6F53F50022BA76 /* Salesforce Pulse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Salesforce Pulse.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73335CBD2D6F53F80022BA76 /* Salesforce PulseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Salesforce PulseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73335CC72D6F53F80022BA76 /* Salesforce PulseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Salesforce PulseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		73335CAF2D6F53F50022BA76 /* Salesforce Pulse */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Salesforce Pulse";
+			sourceTree = "<group>";
+		};
+		73335CC02D6F53F80022BA76 /* Salesforce PulseTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Salesforce PulseTests";
+			sourceTree = "<group>";
+		};
+		73335CCA2D6F53F80022BA76 /* Salesforce PulseUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Salesforce PulseUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73335CAA2D6F53F50022BA76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73335CBA2D6F53F80022BA76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73335CC42D6F53F80022BA76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73335CA42D6F53F50022BA76 = {
+			isa = PBXGroup;
+			children = (
+				73335CAF2D6F53F50022BA76 /* Salesforce Pulse */,
+				73335CC02D6F53F80022BA76 /* Salesforce PulseTests */,
+				73335CCA2D6F53F80022BA76 /* Salesforce PulseUITests */,
+				73335CAE2D6F53F50022BA76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73335CAE2D6F53F50022BA76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73335CAD2D6F53F50022BA76 /* Salesforce Pulse.app */,
+				73335CBD2D6F53F80022BA76 /* Salesforce PulseTests.xctest */,
+				73335CC72D6F53F80022BA76 /* Salesforce PulseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73335CAC2D6F53F50022BA76 /* Salesforce Pulse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73335CD12D6F53F80022BA76 /* Build configuration list for PBXNativeTarget "Salesforce Pulse" */;
+			buildPhases = (
+				73335CA92D6F53F50022BA76 /* Sources */,
+				73335CAA2D6F53F50022BA76 /* Frameworks */,
+				73335CAB2D6F53F50022BA76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				73335CAF2D6F53F50022BA76 /* Salesforce Pulse */,
+			);
+			name = "Salesforce Pulse";
+			packageProductDependencies = (
+			);
+			productName = "Salesforce Pulse";
+			productReference = 73335CAD2D6F53F50022BA76 /* Salesforce Pulse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		73335CBC2D6F53F80022BA76 /* Salesforce PulseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73335CD42D6F53F80022BA76 /* Build configuration list for PBXNativeTarget "Salesforce PulseTests" */;
+			buildPhases = (
+				73335CB92D6F53F80022BA76 /* Sources */,
+				73335CBA2D6F53F80022BA76 /* Frameworks */,
+				73335CBB2D6F53F80022BA76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73335CBF2D6F53F80022BA76 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				73335CC02D6F53F80022BA76 /* Salesforce PulseTests */,
+			);
+			name = "Salesforce PulseTests";
+			packageProductDependencies = (
+			);
+			productName = "Salesforce PulseTests";
+			productReference = 73335CBD2D6F53F80022BA76 /* Salesforce PulseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		73335CC62D6F53F80022BA76 /* Salesforce PulseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73335CD72D6F53F80022BA76 /* Build configuration list for PBXNativeTarget "Salesforce PulseUITests" */;
+			buildPhases = (
+				73335CC32D6F53F80022BA76 /* Sources */,
+				73335CC42D6F53F80022BA76 /* Frameworks */,
+				73335CC52D6F53F80022BA76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73335CC92D6F53F80022BA76 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				73335CCA2D6F53F80022BA76 /* Salesforce PulseUITests */,
+			);
+			name = "Salesforce PulseUITests";
+			packageProductDependencies = (
+			);
+			productName = "Salesforce PulseUITests";
+			productReference = 73335CC72D6F53F80022BA76 /* Salesforce PulseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73335CA52D6F53F50022BA76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					73335CAC2D6F53F50022BA76 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					73335CBC2D6F53F80022BA76 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 73335CAC2D6F53F50022BA76;
+					};
+					73335CC62D6F53F80022BA76 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 73335CAC2D6F53F50022BA76;
+					};
+				};
+			};
+			buildConfigurationList = 73335CA82D6F53F50022BA76 /* Build configuration list for PBXProject "Salesforce Pulse" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 73335CA42D6F53F50022BA76;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 73335CAE2D6F53F50022BA76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73335CAC2D6F53F50022BA76 /* Salesforce Pulse */,
+				73335CBC2D6F53F80022BA76 /* Salesforce PulseTests */,
+				73335CC62D6F53F80022BA76 /* Salesforce PulseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73335CAB2D6F53F50022BA76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73335CBB2D6F53F80022BA76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73335CC52D6F53F80022BA76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73335CA92D6F53F50022BA76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73335CB92D6F53F80022BA76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73335CC32D6F53F80022BA76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73335CBF2D6F53F80022BA76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73335CAC2D6F53F50022BA76 /* Salesforce Pulse */;
+			targetProxy = 73335CBE2D6F53F80022BA76 /* PBXContainerItemProxy */;
+		};
+		73335CC92D6F53F80022BA76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73335CAC2D6F53F50022BA76 /* Salesforce Pulse */;
+			targetProxy = 73335CC82D6F53F80022BA76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		73335CCF2D6F53F80022BA76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		73335CD02D6F53F80022BA76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73335CD22D6F53F80022BA76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Salesforce Pulse/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HE.Salesforce-Pulse";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		73335CD32D6F53F80022BA76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Salesforce Pulse/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HE.Salesforce-Pulse";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		73335CD52D6F53F80022BA76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HE.Salesforce-PulseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Salesforce Pulse.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Salesforce Pulse";
+			};
+			name = Debug;
+		};
+		73335CD62D6F53F80022BA76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HE.Salesforce-PulseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Salesforce Pulse.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Salesforce Pulse";
+			};
+			name = Release;
+		};
+		73335CD82D6F53F80022BA76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HE.Salesforce-PulseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Salesforce Pulse";
+			};
+			name = Debug;
+		};
+		73335CD92D6F53F80022BA76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HE.Salesforce-PulseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Salesforce Pulse";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73335CA82D6F53F50022BA76 /* Build configuration list for PBXProject "Salesforce Pulse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73335CCF2D6F53F80022BA76 /* Debug */,
+				73335CD02D6F53F80022BA76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73335CD12D6F53F80022BA76 /* Build configuration list for PBXNativeTarget "Salesforce Pulse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73335CD22D6F53F80022BA76 /* Debug */,
+				73335CD32D6F53F80022BA76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73335CD42D6F53F80022BA76 /* Build configuration list for PBXNativeTarget "Salesforce PulseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73335CD52D6F53F80022BA76 /* Debug */,
+				73335CD62D6F53F80022BA76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73335CD72D6F53F80022BA76 /* Build configuration list for PBXNativeTarget "Salesforce PulseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73335CD82D6F53F80022BA76 /* Debug */,
+				73335CD92D6F53F80022BA76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73335CA52D6F53F50022BA76 /* Project object */;
+}
